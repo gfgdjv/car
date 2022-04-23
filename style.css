@@ -38,7 +38,11 @@ html, body {
 }
 
 .car__img {
+  position: absolute;
   width: 100%;  
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .title {
